@@ -1,0 +1,22 @@
+body {
+    background-color: #121212;
+    color: #f1f1f1;
+}
+h1, h2, h3, h4 {
+    color: #ffffff;
+}
+.css-1v3fvcr {
+    background-color: #1e1e1e;
+    box-shadow: none;
+}
+.track-card {
+    background-color: #2a2a2a;
+    border-color: #1db954;
+}
+a {
+    color: #1db954;
+}
+.stButton > button {
+    background-color: #1db954;
+    color: black;
+}
