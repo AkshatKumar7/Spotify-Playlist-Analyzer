@@ -13,7 +13,7 @@ A Streamlit web app that analyzes your Spotify playlist and gives you insights o
 ---
 
 ## 🚀 Live App
-👉 Try it out: [https://your-username-your-repo-name.streamlit.app](https://your-username-your-repo-name.streamlit.app)
+👉 Try it out: [https://your-username-your-repo-name.streamlit.app](https://master-bwd7xmng9bhedfkznzfwgi.streamlit.app)
 
 ---
 
