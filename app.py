@@ -21,13 +21,9 @@ except FileNotFoundError:
     st.warning("Custom CSS file not found.")
 
 # [3] Spotify credentials
-from dotenv import load_dotenv
-import os
+client_id = st.secrets["SPOTIPY_CLIENT_ID"]
+client_secret = st.secrets["SPOTIPY_CLIENT_SECRET"]
 
-load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), '.env'))
-
-client_id = os.getenv('SPOTIPY_CLIENT_ID')
-client_secret = os.getenv('SPOTIPY_CLIENT_SECRET')
 
 auth_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
 sp = spotipy.Spotify(auth_manager=auth_manager)
