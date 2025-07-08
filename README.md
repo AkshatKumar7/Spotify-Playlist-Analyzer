@@ -8,7 +8,7 @@ A Streamlit web app that analyzes your Spotify playlist and gives you insights o
 - 🎯 Filter by genre or artist
 - 🔍 Compare two playlists for similarity
 
-![Spotify Playlist Analyzer Screenshot](assets/app_screenshot.png)
+![Spotify Playlist Analyzer Screenshot](assets/image.png)
 
 ---
 
